@@ -33,8 +33,8 @@ input_mapel = (input("Masukan mapel: \n> ")).lower()
 nilai = ["UH1", "UH2", "UH3", "PTS", "PAT"]
 list_nilai = []
 
-for mapel in nilai:
-    input_nilai = float(input(f"input nilai nigger {mapel}: \n> "))
+for n in nilai:
+    input_nilai = float(input(f"input nilai {n}: \n> "))
     list_nilai.append(input_nilai)
 
 print(input_mapel)
